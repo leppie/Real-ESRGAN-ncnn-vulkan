@@ -26,3 +26,4 @@ jobs:
         mkdir build; cd build
         cmake -A x64 ../src
         cmake --build . --config Release -j 2
+
