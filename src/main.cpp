@@ -408,7 +408,7 @@ void* save(void* args)
             if (verbose)
             {
 #if _WIN32
-                fwprintf(stderr, L"%ls -> %ls done\n", v.inpath.c_str(), v.outpath.c_str());
+                fwprintf(stdout, L"%ls -> %ls done\n", v.inpath.c_str(), v.outpath.c_str());
 #else
                 fprintf(stderr, "%s -> %s done\n", v.inpath.c_str(), v.outpath.c_str());
 #endif
